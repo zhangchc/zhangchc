@@ -1,0 +1,289 @@
+[INFO][2014-12-26 11:19:57] org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:456) main Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@167d940: startup date [Fri Dec 26 11:19:57 CST 2014]; root of context hierarchy 
+    [INFO][2014-12-26 11:19:57] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315) main Loading XML bean definitions from class path resource [applicationContext.xml] 
+    [INFO][2014-12-26 11:19:57] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315) main Loading XML bean definitions from class path resource [spring-memcache.xml] 
+    [INFO][2014-12-26 11:19:57] org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:177) main Loading properties file from class path resource [memcache.properties] 
+    [INFO][2014-12-26 11:19:57] org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:422) main Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@8acf6e: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,springContextHolder,memcachedPool,memcachedClient]; root of factory hierarchy 
+    [INFO][2014-12-26 11:21:37] org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:456) main Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@e7b241: startup date [Fri Dec 26 11:21:37 CST 2014]; root of context hierarchy 
+    [INFO][2014-12-26 11:21:37] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315) main Loading XML bean definitions from class path resource [applicationContext.xml] 
+    [INFO][2014-12-26 11:21:37] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315) main Loading XML bean definitions from class path resource [spring-memcache.xml] 
+    [INFO][2014-12-26 11:21:37] org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:177) main Loading properties file from class path resource [memcache.properties] 
+    [INFO][2014-12-26 11:21:37] org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:555) main Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@8acf6e: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,springContextHolder,memcachedPool,memcachedClient]; root of factory hierarchy 
+    [INFO][2014-12-26 11:21:37] org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:422) main Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@8acf6e: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,springContextHolder,memcachedPool,memcachedClient]; root of factory hierarchy 
+    [INFO][2014-12-26 11:22:38] org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:456) main Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@167d940: startup date [Fri Dec 26 11:22:38 CST 2014]; root of context hierarchy 
+    [INFO][2014-12-26 11:22:38] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315) main Loading XML bean definitions from class path resource [applicationContext.xml] 
+    [INFO][2014-12-26 11:22:38] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315) main Loading XML bean definitions from class path resource [spring-memcache.xml] 
+    [INFO][2014-12-26 11:22:38] org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:177) main Loading properties file from class path resource [memcache.properties] 
+    [INFO][2014-12-26 11:22:38] org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:555) main Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@8acf6e: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,springContextHolder,memcachedPool,memcachedClient]; root of factory hierarchy 
+    [INFO][2014-12-26 11:32:48] org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:456) main Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7ffe01: startup date [Fri Dec 26 11:32:48 CST 2014]; root of context hierarchy 
+    [INFO][2014-12-26 11:32:48] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315) main Loading XML bean definitions from class path resource [applicationContext.xml] 
+    [INFO][2014-12-26 11:32:48] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315) main Loading XML bean definitions from class path resource [spring-memcache.xml] 
+    [INFO][2014-12-26 11:32:48] org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:177) main Loading properties file from class path resource [memcache.properties] 
+    [INFO][2014-12-26 11:32:48] org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:555) main Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@10849bc: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,springContextHolder,memcachedPool,memcachedClient]; root of factory hierarchy 
+    [INFO][2014-12-26 11:32:48] org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:422) main Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@10849bc: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,springContextHolder,memcachedPool,memcachedClient]; root of factory hierarchy 
+    [INFO][2014-12-26 11:33:21] org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:456) main Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7ffe01: startup date [Fri Dec 26 11:33:21 CST 2014]; root of context hierarchy 
+    [INFO][2014-12-26 11:33:21] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315) main Loading XML bean definitions from class path resource [applicationContext.xml] 
+    [INFO][2014-12-26 11:33:21] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315) main Loading XML bean definitions from class path resource [spring-memcache.xml] 
+    [INFO][2014-12-26 11:33:21] org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:177) main Loading properties file from class path resource [memcache.properties] 
+    [INFO][2014-12-26 11:33:21] org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:555) main Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@10849bc: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,memcachedPool,memcachedClient]; root of factory hierarchy 
+    [INFO][2014-12-26 11:46:23] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315) main Loading XML bean definitions from class path resource [applicationContext.xml,classpath:spring-memcache.xml] 
+    [ERROR][2014-12-26 11:46:23] org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:336) main Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@503429] to prepare test instance [org.zhangcc.exam.memcached.MemcachedTest@1908ca1] 
+    java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:308)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:109)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:75)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:333)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:220)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:301)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:303)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:240)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:180)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from class path resource [applicationContext.xml,classpath:spring-memcache.xml]; nested exception is java.io.FileNotFoundException: class path resource [applicationContext.xml,classpath:spring-memcache.xml] cannot be opened because it does not exist
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:341)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:143)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:178)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:149)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:212)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:81)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:1)
+	at org.springframework.test.context.TestContext.loadApplicationContext(TestContext.java:280)
+	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:304)
+	... 24 more
+Caused by: java.io.FileNotFoundException: class path resource [applicationContext.xml,classpath:spring-memcache.xml] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:158)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:328)
+	... 33 more
+[INFO][2014-12-26 11:47:31] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315) main Loading XML bean definitions from class path resource [applicationContext.xml,classpath:spring-memcache.xml] 
+    [ERROR][2014-12-26 11:47:31] org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:336) main Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1815859] to prepare test instance [org.zhangcc.exam.memcached.MemcachedTest@cf40f5] 
+    java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:308)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:109)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:75)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:333)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:220)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:301)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:303)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:240)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:180)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from class path resource [applicationContext.xml,classpath:spring-memcache.xml]; nested exception is java.io.FileNotFoundException: class path resource [applicationContext.xml,classpath:spring-memcache.xml] cannot be opened because it does not exist
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:341)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:143)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:178)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:149)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:212)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:81)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:1)
+	at org.springframework.test.context.TestContext.loadApplicationContext(TestContext.java:280)
+	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:304)
+	... 24 more
+Caused by: java.io.FileNotFoundException: class path resource [applicationContext.xml,classpath:spring-memcache.xml] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:158)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:328)
+	... 33 more
+[INFO][2014-12-26 11:48:05] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315) main Loading XML bean definitions from class path resource [org/zhangcc/exam/memcached/applicationContext.xml,spring-memcache.xml] 
+    [ERROR][2014-12-26 11:48:05] org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:336) main Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@535b58] to prepare test instance [org.zhangcc.exam.memcached.MemcachedTest@922804] 
+    java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:308)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:109)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:75)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:333)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:220)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:301)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:303)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:240)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:180)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from class path resource [org/zhangcc/exam/memcached/applicationContext.xml,spring-memcache.xml]; nested exception is java.io.FileNotFoundException: class path resource [org/zhangcc/exam/memcached/applicationContext.xml,spring-memcache.xml] cannot be opened because it does not exist
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:341)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:143)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:178)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:149)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:212)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:81)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:1)
+	at org.springframework.test.context.TestContext.loadApplicationContext(TestContext.java:280)
+	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:304)
+	... 24 more
+Caused by: java.io.FileNotFoundException: class path resource [org/zhangcc/exam/memcached/applicationContext.xml,spring-memcache.xml] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:158)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:328)
+	... 33 more
+[INFO][2014-12-26 11:48:54] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315) main Loading XML bean definitions from class path resource [applicationContext.xml] 
+    [INFO][2014-12-26 11:48:55] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315) main Loading XML bean definitions from class path resource [spring-memcache.xml] 
+    [INFO][2014-12-26 11:48:55] org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:456) main Refreshing org.springframework.context.support.GenericApplicationContext@127734f: startup date [Fri Dec 26 11:48:55 CST 2014]; root of context hierarchy 
+    [INFO][2014-12-26 11:48:55] org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:177) main Loading properties file from class path resource [memcache.properties] 
+    [INFO][2014-12-26 11:48:55] org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:555) main Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@172e449: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,memcachedPool,memcachedClient,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor]; root of factory hierarchy 
+    [INFO][2014-12-26 11:48:55] org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1002) Thread-0 Closing org.springframework.context.support.GenericApplicationContext@127734f: startup date [Fri Dec 26 11:48:55 CST 2014]; root of context hierarchy 
+    [INFO][2014-12-26 11:48:55] org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:422) Thread-0 Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@172e449: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,memcachedPool,memcachedClient,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor]; root of factory hierarchy 
+    [INFO][2014-12-26 12:07:18] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315) main Loading XML bean definitions from class path resource [applicationContext.xml] 
+    [INFO][2014-12-26 12:07:18] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315) main Loading XML bean definitions from class path resource [spring-memcache.xml] 
+    [INFO][2014-12-26 12:07:18] org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:456) main Refreshing org.springframework.context.support.GenericApplicationContext@1e0bc08: startup date [Fri Dec 26 12:07:18 CST 2014]; root of context hierarchy 
+    [INFO][2014-12-26 12:07:18] org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:177) main Loading properties file from class path resource [memcache.properties] 
+    [INFO][2014-12-26 12:07:19] org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:555) main Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@e6ff0d: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,memcachedPool,memcachedClient,cacheHelper,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor]; root of factory hierarchy 
+    [ERROR][2014-12-26 12:07:19] org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:336) main Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@2acc65] to prepare test instance [org.zhangcc.exam.memcached.MemcachedTest@1d10a5c] 
+    org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.zhangcc.exam.memcached.MemcachedTest': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private org.zhangcc.exam.memcached.CacheHelper org.zhangcc.exam.memcached.MemcachedTest.cacheHelper; nested exception is java.lang.IllegalStateException: No Scope registered for scope 'single'
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:285)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1074)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:374)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:110)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:75)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:333)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:220)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:301)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:303)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:240)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:180)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: private org.zhangcc.exam.memcached.CacheHelper org.zhangcc.exam.memcached.MemcachedTest.cacheHelper; nested exception is java.lang.IllegalStateException: No Scope registered for scope 'single'
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:502)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:84)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:282)
+	... 26 more
+Caused by: java.lang.IllegalStateException: No Scope registered for scope 'single'
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:844)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:786)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:703)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:474)
+	... 28 more
+[INFO][2014-12-26 12:07:19] org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1002) Thread-0 Closing org.springframework.context.support.GenericApplicationContext@1e0bc08: startup date [Fri Dec 26 12:07:18 CST 2014]; root of context hierarchy 
+    [INFO][2014-12-26 12:07:19] org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:422) Thread-0 Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@e6ff0d: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,memcachedPool,memcachedClient,cacheHelper,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor]; root of factory hierarchy 
+    [INFO][2014-12-26 12:07:54] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315) main Loading XML bean definitions from class path resource [applicationContext.xml] 
+    [INFO][2014-12-26 12:07:54] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315) main Loading XML bean definitions from class path resource [spring-memcache.xml] 
+    [INFO][2014-12-26 12:07:54] org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:456) main Refreshing org.springframework.context.support.GenericApplicationContext@a20892: startup date [Fri Dec 26 12:07:54 CST 2014]; root of context hierarchy 
+    [INFO][2014-12-26 12:07:55] org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:177) main Loading properties file from class path resource [memcache.properties] 
+    [INFO][2014-12-26 12:07:55] org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:555) main Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@e6ff0d: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,memcachedPool,memcachedClient,cacheHelper,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor]; root of factory hierarchy 
+    [INFO][2014-12-26 12:07:55] org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1002) Thread-0 Closing org.springframework.context.support.GenericApplicationContext@a20892: startup date [Fri Dec 26 12:07:54 CST 2014]; root of context hierarchy 
+    [INFO][2014-12-26 12:07:55] org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:422) Thread-0 Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@e6ff0d: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,memcachedPool,memcachedClient,cacheHelper,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor]; root of factory hierarchy 
+    [INFO][2014-12-26 12:09:51] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315) main Loading XML bean definitions from class path resource [applicationContext.xml] 
+    [INFO][2014-12-26 12:09:51] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315) main Loading XML bean definitions from class path resource [spring-memcache.xml] 
+    [INFO][2014-12-26 12:09:52] org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:456) main Refreshing org.springframework.context.support.GenericApplicationContext@1e0bc08: startup date [Fri Dec 26 12:09:52 CST 2014]; root of context hierarchy 
+    [INFO][2014-12-26 12:09:52] org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:177) main Loading properties file from class path resource [memcache.properties] 
+    [INFO][2014-12-26 12:09:52] org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:555) main Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@e6ff0d: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,memcachedPool,memcachedClient,cacheHelper,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor]; root of factory hierarchy 
+    [INFO][2014-12-26 12:09:52] org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:422) main Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@e6ff0d: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,memcachedPool,memcachedClient,cacheHelper,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor]; root of factory hierarchy 
+    [ERROR][2014-12-26 12:09:52] org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:336) main Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@18235ed] to prepare test instance [org.zhangcc.exam.memcached.MemcachedTest@1a28362] 
+    java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:308)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:109)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:75)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:333)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:220)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:301)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:303)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:240)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:180)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cacheHelper' defined in class path resource [spring-memcache.xml]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Could not instantiate bean class [org.zhangcc.exam.memcached.CacheHelper]: No default constructor found; nested exception is java.lang.NoSuchMethodException: org.zhangcc.exam.memcached.CacheHelper.<init>()
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:965)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:911)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:485)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:580)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:425)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:84)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:1)
+	at org.springframework.test.context.TestContext.loadApplicationContext(TestContext.java:280)
+	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:304)
+	... 24 more
+Caused by: org.springframework.beans.BeanInstantiationException: Could not instantiate bean class [org.zhangcc.exam.memcached.CacheHelper]: No default constructor found; nested exception is java.lang.NoSuchMethodException: org.zhangcc.exam.memcached.CacheHelper.<init>()
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:70)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:958)
+	... 38 more
+Caused by: java.lang.NoSuchMethodException: org.zhangcc.exam.memcached.CacheHelper.<init>()
+	at java.lang.Class.getConstructor0(Class.java:2706)
+	at java.lang.Class.getDeclaredConstructor(Class.java:1985)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:65)
+	... 39 more
+[INFO][2014-12-26 12:10:52] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315) main Loading XML bean definitions from class path resource [applicationContext.xml] 
+    [INFO][2014-12-26 12:10:52] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315) main Loading XML bean definitions from class path resource [spring-memcache.xml] 
+    [INFO][2014-12-26 12:10:52] org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:456) main Refreshing org.springframework.context.support.GenericApplicationContext@1e0bc08: startup date [Fri Dec 26 12:10:52 CST 2014]; root of context hierarchy 
+    [INFO][2014-12-26 12:10:52] org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:177) main Loading properties file from class path resource [memcache.properties] 
+    [INFO][2014-12-26 12:10:52] org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:555) main Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@172e449: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,memcachedPool,memcachedClient,cacheHelper,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor]; root of factory hierarchy 
+    [INFO][2014-12-26 12:10:52] org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1002) Thread-0 Closing org.springframework.context.support.GenericApplicationContext@1e0bc08: startup date [Fri Dec 26 12:10:52 CST 2014]; root of context hierarchy 
+    [INFO][2014-12-26 12:10:52] org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:422) Thread-0 Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@172e449: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,memcachedPool,memcachedClient,cacheHelper,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor]; root of factory hierarchy 
+    
