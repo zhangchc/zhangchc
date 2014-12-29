@@ -23,11 +23,15 @@
 			<type>jar</type>
 			<scope>test</scope>
 		</dependency>
+		<!-- junit end -->
+		<!-- log4j -->
 		<dependency>
 			<groupId>log4j</groupId>
 			<artifactId>log4j</artifactId>
 			<version>1.2.9</version>
 		</dependency>
+		<!-- log4j end -->
+		<!-- spring -->
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-web</artifactId>
@@ -39,13 +43,15 @@
 			<artifactId>spring-webmvc</artifactId>
 			<version>3.0.5.RELEASE</version>
 		</dependency>
-
+		<!-- spring end -->
+		<!-- servlet 2.5 -->
 		<dependency>
 			<groupId>org.apache.geronimo.specs</groupId>
 			<artifactId>geronimo-servlet_2.5_spec</artifactId>
 			<version>1.2</version>
 		</dependency>
-
+		<!-- servlet 2.5 end -->
+		<!-- jackson -->
 		<dependency>
 			<groupId>org.codehaus.jackson</groupId>
 			<artifactId>jackson-core-asl</artifactId>
@@ -56,6 +62,8 @@
 			<artifactId>jackson-mapper-asl</artifactId>
 			<version>1.8.4</version>
 		</dependency>
+		<!-- jaskson end -->
+		<!-- memcached -->
 		<dependency>
 			<groupId>com.danga</groupId>
 			<artifactId>memcached</artifactId>
@@ -77,7 +85,7 @@
 			<artifactId>commons-pool</artifactId>
 			<version>1.5.6</version>
 		</dependency>
-
+		<!-- memcached end -->
 	</dependencies>
 	<build>
 		<finalName>exam_1</finalName>
