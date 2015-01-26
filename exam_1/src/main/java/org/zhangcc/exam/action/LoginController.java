@@ -23,7 +23,6 @@ public class LoginController {
 	public ModelAndView login(HttpServletRequest request,
 			HttpServletResponse response, LoginForm command) {
 		 Logger logger = Logger.getLogger(LoginController.class);
-		 logger.info("»’÷æ∆Ù∂Ø°£°£");
 		 memcachedClient.set("lalalalal","dfdfdfdf");
 		 logger.info(memcachedClient.get("lalalalal"));
 		String username = command.getUsername();
@@ -32,5 +31,15 @@ public class LoginController {
 		Map<String,Object> map =new HashMap<String,Object>();
 		map.put("loginInfo", form);
 		return new ModelAndView("/index/index", map);
+	}
+	
+	@RequestMapping(value = "testRedis")
+	public ModelAndView testRedis(HttpServletRequest request,
+			HttpServletResponse response, String data) {
+		 Logger logger = Logger.getLogger(LoginController.class);
+		LoginForm form =new LoginForm();
+		Map<String,Object> map =new HashMap<String,Object>();
+		map.put("loginInfo", form);
+		return null;
 	}
 }

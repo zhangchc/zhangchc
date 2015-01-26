@@ -7,12 +7,12 @@ import com.danga.MemCached.MemCachedClient;
 import com.danga.MemCached.SockIOPool;
 
 public class CacheHelper {
-	// ¹¹½¨»º´æ¿Í»§¶Ë
+	// æ„å»ºç¼“å­˜å®¢æˆ·ç«¯
 	@Autowired
 	private  MemCachedClient cachedClient;
-//	//±¸·İ
+//	//å¤‡ä»½
 //	private static MemCachedClient cachedClientBack;
-//	// µ¥ÀıÄ£Ê½ÊµÏÖ¿Í»§¶Ë¹ÜÀíÀà
+//	// å•ä¾‹æ¨¡å¼å®ç°å®¢æˆ·ç«¯ç®¡ç†ç±»
 //	private static CacheHelper INSTANCE = new CacheHelper();
 
 //	private CacheHelper() {
@@ -21,17 +21,17 @@ public class CacheHelper {
 //	}
 	
 //	public void initPool(){
-//		// »ñÈ¡Á¬½Ó³ØÊµÀı
+//		// è·å–è¿æ¥æ± å®ä¾‹
 //				SockIOPool pool = SockIOPool.getInstance();
-//				// ÉèÖÃ»º´æ·şÎñÆ÷µØÖ·£¬¿ÉÒÔÉèÖÃ¶à¸öÊµÏÖ·Ö²¼Ê½»º´æ
+//				// è®¾ç½®ç¼“å­˜æœåŠ¡å™¨åœ°å€ï¼Œå¯ä»¥è®¾ç½®å¤šä¸ªå®ç°åˆ†å¸ƒå¼ç¼“å­˜
 //				pool.setServers(new String[] { "127.0.0.1:11211" });
-//				// ÉèÖÃ³õÊ¼Á¬½Ó5
+//				// è®¾ç½®åˆå§‹è¿æ¥5
 //				pool.setInitConn(5);
-//				// ÉèÖÃ×îĞ¡Á¬½Ó5
+//				// è®¾ç½®æœ€å°è¿æ¥5
 //				pool.setMinConn(5);
-//				// ÉèÖÃ×î´óÁ¬½Ó250
+//				// è®¾ç½®æœ€å¤§è¿æ¥250
 //				pool.setMaxConn(250);
-//				// ÉèÖÃÃ¿¸öÁ¬½Ó×î´ó¿ÕÏĞÊ±¼ä3¸öĞ¡Ê±
+//				// è®¾ç½®æ¯ä¸ªè¿æ¥æœ€å¤§ç©ºé—²æ—¶é—´3ä¸ªå°æ—¶
 //				pool.setMaxIdle(1000 * 60 * 60 * 3);
 //				pool.setMaintSleep(30);
 //				pool.setNagle(false);
@@ -41,17 +41,17 @@ public class CacheHelper {
 //	}
 //
 //	public void initPoolBack(){
-//		// »ñÈ¡Á¬½Ó³ØÊµÀı
+//		// è·å–è¿æ¥æ± å®ä¾‹
 //				SockIOPool pool = SockIOPool.getInstance();
-//				// ÉèÖÃ»º´æ·şÎñÆ÷µØÖ·£¬¿ÉÒÔÉèÖÃ¶à¸öÊµÏÖ·Ö²¼Ê½»º´æ
+//				// è®¾ç½®ç¼“å­˜æœåŠ¡å™¨åœ°å€ï¼Œå¯ä»¥è®¾ç½®å¤šä¸ªå®ç°åˆ†å¸ƒå¼ç¼“å­˜
 //				pool.setServers(new String[] { "127.0.0.1:11212" });
-//				// ÉèÖÃ³õÊ¼Á¬½Ó5
+//				// è®¾ç½®åˆå§‹è¿æ¥5
 //				pool.setInitConn(5);
-//				// ÉèÖÃ×îĞ¡Á¬½Ó5
+//				// è®¾ç½®æœ€å°è¿æ¥5
 //				pool.setMinConn(5);
-//				// ÉèÖÃ×î´óÁ¬½Ó250
+//				// è®¾ç½®æœ€å¤§è¿æ¥250
 //				pool.setMaxConn(250);
-//				// ÉèÖÃÃ¿¸öÁ¬½Ó×î´ó¿ÕÏĞÊ±¼ä3¸öĞ¡Ê±
+//				// è®¾ç½®æ¯ä¸ªè¿æ¥æœ€å¤§ç©ºé—²æ—¶é—´3ä¸ªå°æ—¶
 //				pool.setMaxIdle(1000 * 60 * 60 * 3);
 //				pool.setMaintSleep(30);
 //				pool.setNagle(false);
@@ -60,7 +60,7 @@ public class CacheHelper {
 //				pool.initialize();
 //	}
 	/**
-	 * »ñÈ¡»º´æ¹ÜÀíÆ÷Î¨Ò»ÊµÀı
+	 * è·å–ç¼“å­˜ç®¡ç†å™¨å”¯ä¸€å®ä¾‹
 	 * 
 	 * @return
 	 */

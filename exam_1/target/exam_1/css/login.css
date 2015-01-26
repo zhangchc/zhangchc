@@ -1,0 +1,191 @@
+#pg-login {
+    color: #8C8C8C;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, hr, button, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    margin: 0px;
+    padding: 0px;
+}
+body, button, input, select, textarea {
+    font: 14px/1.5 "Î¢ÈíÑÅºÚ",YaHei,tahoma,arial,"Hiragino Sans GB",ËÎÌå;
+}
+html {
+    color: #666;
+}
+
+#pg-login .container_12 {
+    padding: 50px 0px;
+    position: relative;
+}
+.clearfix, .container_12 {
+}
+.container_12 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+}
+#pg-login {
+    color: #8C8C8C;
+}
+#pg-login .right-con {
+    float: right;
+}
+#pg-login .loginbox {
+    background: none repeat scroll 0% 0% #FFF;
+    width: 325px;
+    position: relative;
+}
+.ui-box-white-bg {
+    border: 1px solid #E0E0E0;
+}
+#pg-login .loginbox h3 {
+    height: 58px;
+    line-height: 58px;
+    text-align: center;
+    background: none repeat scroll 0% 0% #51C2E8;
+    color: #FFF;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    font-weight: 400;
+    font-size: 20px;
+    display: none;
+}
+#pg-login .loginbox form {
+    padding: 0px 20px;
+}
+.ui-form, .ui-form * {
+    list-style: outside none none;
+}
+.ui-form {
+    font-size: 14px;
+    line-height: 1.5;
+}
+.ui-form fieldset {
+    border: 0px none;
+}
+.ui-form, .ui-form * {
+    list-style: outside none none;
+}
+#pg-login .loginbox form legend {
+    display: none;
+}
+.ui-form legend {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.ui-form, .ui-form * {
+    list-style: outside none none;
+}
+#pg-login .loginbox .top-msg {
+    height: 40px;
+    line-height: 40px;
+}
+.ui-form, .ui-form * {
+    list-style: outside none none;
+}
+.mb10 {
+    margin-bottom: 10px;
+}
+#pg-login .ui-form-item {
+    padding: 0px 5px 20px 0px;
+}
+.ui-form-item {
+    position: relative;
+}
+.ui-form, .ui-form * {
+    list-style: outside none none;
+}
+#pg-login .ui-form-item .ui-label {
+    display: none;
+}
+.ui-label {
+    float: left;
+    width: 170px;
+    margin-left: -180px;
+    padding-top: 0px;
+    text-align: right;
+    font-size: 14px;
+}
+.ui-form, .ui-form * {
+    list-style: outside none none;
+}
+#pg-login .loginbox .input-icon {
+    padding-left: 50px;
+}
+#pg-login .loginbox .ui-input {
+    width: 230px;
+    padding: 10px 5px;
+}
+.ui-form-item input {
+    vertical-align: middle;
+}
+.ui-input, .ui-textarea {
+    line-height: 22px;
+    color: #595959;
+    font-size: 14px;
+    border-radius: 2px;
+    border: 1px solid #C5C5C5;
+    box-shadow: 0px 1px 3px #EEE inset;
+}
+.ui-form, .ui-form * {
+    list-style: outside none none;
+}
+body, button, input, select, textarea {
+    font: 14px/1.5 "Î¢ÈíÑÅºÚ",YaHei,tahoma,arial,"Hiragino Sans GB",ËÎÌå;
+}
+#pg-login .loginbox .placeholder {
+    top: 11px;
+    left: 50px;
+}
+.ui-form-item .placeholder {
+    position: absolute;
+    font-size: 14px;
+    color: #ABABAB;
+}
+.ui-form, .ui-form * {
+    list-style: outside none none;
+}
+.ui-form-item .input-icon-head-gray {
+    background-position: 0px -142px;
+}
+.ui-form-item .icon {
+    width: 25px;
+    height: 21px;
+    position: absolute;
+    top: 12px;
+    left: 9px;
+}
+.icon {
+    display: inline-block;
+}
+.ui-form, .ui-form * {
+    list-style: outside none none;
+}
+#pg-login .ui-form-item {
+    padding: 0px 5px 20px 0px;
+}
+.ui-form-item {
+    position: relative;
+}
+.ui-form, .ui-form * {
+    list-style: outside none none;
+}
+.ui-form-item input {
+    vertical-align: middle;
+}
+.ui-form, .ui-form * {
+    list-style: outside none none;
+}
+.ui-button-rrd-blue-large {
+    width: 165px;
+    font-size: 18px;
+}
+a.ui-button-rrd-blue, .ui-button-rrd-blue {
+    height: 40px;
+    line-height: 40px;
+    background: none repeat scroll 0% 0% #2EA7E0;
+    border: 0px none;
+    border-radius: 2px;
+    color: #FFF;
+    text-align: center;
+    cursor: pointer;
+}
