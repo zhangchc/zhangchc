@@ -28,8 +28,6 @@ public class RedisClient {
         initialShardedPool(); 
         shardedJedis = shardedJedisPool.getResource(); 
         jedis = jedisPool.getResource(); 
-        
-        
     } 
  
     /**

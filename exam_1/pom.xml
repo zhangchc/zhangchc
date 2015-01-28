@@ -48,6 +48,11 @@
 			<artifactId>spring-tx</artifactId>
 			<version>3.0.5.RELEASE</version>
 		</dependency>
+		 <dependency>  
+            <groupId>org.quartz-scheduler</groupId>  
+            <artifactId>quartz</artifactId>  
+            <version>1.8.5</version>  
+        </dependency>
 		<!-- spring end -->
 
 		<dependency>
@@ -106,7 +111,7 @@
 		<dependency>
 			<groupId>org.springframework.data</groupId>
 			<artifactId>spring-data-redis</artifactId>
-			<version>1.0.2.RELEASE</version>
+			<version>1.0.3.RELEASE</version>
 			<exclusions>
 				<exclusion>
 					<groupId>org.slf4j</groupId>
