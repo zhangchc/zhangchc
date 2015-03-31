@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+    <!DOCTYPE mapper  
+      PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  
+      "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.zhangcc.exam.dao.TestDevicesDao">
+	<resultMap type="org.zhangcc.exam.domain.TestDevices" id="testDevices">
+		<result column="id" jdbcType="INTEGER" property="id" />
+		<result column="device_id" jdbcType="VARCHAR" property="deviceId" />
+	</resultMap>
+	<select id="query" resultMap="testDevices">
+		select * from test_device_my
+	</select>
+</mapper>  

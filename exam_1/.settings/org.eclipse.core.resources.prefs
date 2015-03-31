@@ -8,3 +8,4 @@ encoding//src/main/resources/conf/jdbc.properties=UTF-8
 encoding//src/main/resources/conf/log4j.properties=UTF-8
 encoding//src/main/resources/conf/memcache.properties=UTF-8
 encoding//src/main/resources/conf/redis.properties=UTF-8
+encoding//src/main/resources/org/zhangcc/mybatis/mapper/TestDevicesMapper.xml=UTF-8

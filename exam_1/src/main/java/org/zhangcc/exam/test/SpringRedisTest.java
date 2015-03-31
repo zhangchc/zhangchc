@@ -26,13 +26,7 @@ public class SpringRedisTest extends AbstractJUnit4SpringContextTests {
 //		redisTemplate.opsForList().leftPush("deviceInfo","{id:4,data:111,name:222,age:333,phone:15050541759}");
 //		redisTemplate.opsForList().leftPush("deviceInfo","{id:5,data:111,name:222,age:333,phone:15050541759}");
 //		System.out.println(redisTemplate.opsForList().range("deviceInfo", 0, -1));
-		while (true) { //这里是一个死循环,目的就是让进程不退出,用于接收发布的消息
-            try {
-                System.out.println("current time: " + new Date());
- 
-                Thread.sleep(3000);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-		}}
+		
+		System.out.println(redisTemplate.opsForValue().get("nnn"));
+	}
 }

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
-	xmlns:tx="http://www.springframework.org/schema/tx" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:redis="http://www.springframework.org/schema/redis" xmlns:jee="http://www.springframework.org/schema/jee"
+	xmlns:tx="http://www.springframework.org/schema/tx" xmlns:aop="http://www.springframework.org/schema/aop"
+
 	xsi:schemaLocation="     
           http://www.springframework.org/schema/beans     
           http://www.springframework.org/schema/beans/spring-beans-3.0.xsd     
@@ -10,7 +13,10 @@
           http://www.springframework.org/schema/context     
           http://www.springframework.org/schema/context/spring-context-3.0.xsd     
           http://www.springframework.org/schema/aop     
-          http://www.springframework.org/schema/aop/spring-aop-3.0.xsd">
+          http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+          http://www.springframework.org/schema/redis  
+        http://www.springframework.org/schema/redis/spring-redis-1.0.xsd">
+	<context:component-scan base-package="org.zhangcc.exam"></context:component-scan>
 	<tx:annotation-driven transaction-manager="transactionManager" />
 	<!-- properties 载入 -->
 	<bean
@@ -19,37 +25,45 @@
 			<list>
 				<value>classpath:conf/jdbc.properties</value>
 				<value>classpath:conf/memcache.properties</value>
+				<value>classpath:conf/redis.properties</value>
 			</list>
 		</property>
 		<property name="fileEncoding" value="utf-8"></property>
 	</bean>
 
-	<bean id="dataSource" class="com.mchage.v2.c3p0.ComboPooledDataSource"
+	<bean id="jedisPoolConfig" class="redis.clients.jedis.JedisPoolConfig">
+		<property name="maxActive" value="${redis.pool.maxActive}" />
+		<property name="maxIdle" value="${redis.pool.maxIdle}" />
+		<property name="maxWait" value="${redis.pool.maxWait}" />
+		<property name="testOnBorrow" value="${redis.pool.testOnBorrow}" />
+	</bean>
+	<bean id="redisConnectionFactory"
+		class="org.springframework.data.redis.connection.jedis.JedisConnectionFactory">
+		<property name="hostName" value="${redis.ip}" />
+		<property name="port" value="${redis.port}" />
+		<property name="password" value="${redis.pass}" />
+		<property name="poolConfig" ref="jedisPoolConfig" />
+	</bean>
+	<bean class="org.springframework.data.redis.core.RedisTemplate"
+		p:connection-factory-ref="redisConnectionFactory" />
+
+
+
+
+	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"
 		destroy-method="close">
-		<property name="jdbcUrl" value="${jdbc.url}"></property>
-		<property name="driverClass" value="${jdbc.driverClass}"></property>
-		<property name="user" value="${jdbc.userName}"></property>
-		<property name="password" value="${jdbc.password}"></property>
-		<property name="maxPoolSize" value="${jdbc.maxPoolSize}"></property>
-		<property name="initialPoolSize" value="${jdbc.initialPoolSize}"></property>
-		<property name="minPoolSize" value="${jdbc.minPoolSize}"></property>
-		<property name="acquireIncrement" value="${jdbc.acquireIncrement}"></property>
-		<property name="maxIdleTime" value="${jdbc.maxIdleTime}"></property>
+		<property name="driverClassName" value="${jdbc.driverClass}" />
+		<property name="url" value="${jdbc.url}" />
+		<property name="username" value="${jdbc.userName}" />
+		<property name="password" value="${jdbc.password}" />
 	</bean>
 
 	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
-		<property name="dataSource" ref="dataSource"></property>
-		<!-- <property name="configLocation" value="classpath:sqlMapConfig.xml"></property>   -->
-		<property name="mapperLocations" value="classpath*:org/zhangcc/exam/mapper/**/*.xml"></property>
+		<property name="dataSource" ref="dataSource" />
+<!-- 		<property name="typeAliasesPackage" value="com.tiantian.mybatis.model" /> -->
+		<property name="mapperLocations" value="classpath:org/zhangcc/mybatis/mapper/*.xml" />
 	</bean>
 
-	<bean id="mapperScannerConfigurer" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-		<property name="sqlSessionFactory" ref="sqlSessionFactory"></property>
-		<property name="basePackage" value="org.zhangcc.exam.dao"></property>
-	</bean>
+	
 
-	<bean id="transactionManager"
-		class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
-		<property name="dataSource" ref="dataSource"></property>
-	</bean>
 </beans>

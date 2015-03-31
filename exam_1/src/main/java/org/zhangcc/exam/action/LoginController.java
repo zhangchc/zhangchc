@@ -17,14 +17,9 @@ import com.danga.MemCached.MemCachedClient;
 
 @Controller
 public class LoginController {
-	@Autowired
-	 private MemCachedClient memcachedClient;
 	@RequestMapping(value = "login")
 	public ModelAndView login(HttpServletRequest request,
 			HttpServletResponse response, LoginForm command) {
-		 Logger logger = Logger.getLogger(LoginController.class);
-		 memcachedClient.set("lalalalal","dfdfdfdf");
-		 logger.info(memcachedClient.get("lalalalal"));
 		String username = command.getUsername();
 		LoginForm form =new LoginForm();
 		form.setPassword(username);	
